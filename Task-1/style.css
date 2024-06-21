@@ -1,0 +1,170 @@
+*{
+    background-color: #141414;
+    text-decoration: none;
+}
+
+.logo{
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 55px;
+    width: 55px;
+    z-index: 1001;
+
+}
+
+.logo:hover{
+    content: url(logo1h.png);
+}
+
+
+
+nav{
+
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+
+
+nav ul{
+    list-style: none;
+    padding: 0px 0px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 40px;
+
+    transition: transform 0.3s;
+    
+}
+
+nav ul li:hover{
+    transform: translateY(-5px);
+}
+
+
+nav ul li a{
+    color: white;
+    font-family: Roboto ,'Segoe UI'; 
+    font-weight: 500;
+    font-size: 20px;
+    padding: 3px 20px;
+
+    transition: color 0.3s;
+    
+}
+
+nav ul li a:hover{
+    
+    color: #377de0;
+}
+
+.social{
+    
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+.social img{
+    display: flexbox;
+    margin-right: 15px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    height: 20px;
+    width: 20px;
+
+    transition: 0.3s;
+
+
+}
+
+.social img:hover{
+    transform: translateY(-5px);
+    background-color: #494949a8;
+}
+
+
+
+.capsule1{
+    display:flex;
+    justify-content: left;
+    margin-top: 150px;
+    margin-left: -1000px;
+    transition: 1.5s ease;
+}
+
+.capsule1:hover{
+    
+    transform: translateX(800px);
+}
+
+.rectangle1{
+    height:200px ;
+    width: 1050px;
+    background-color: #377de0;
+    margin: 0px;
+}
+.rectangle1 h1{
+    font-family: Roboto;
+    color: white;
+    font-weight: 800;
+    font-size: 45px;
+    text-align:right;
+    background-color: rgba(0,0,0, 0.0);
+    margin-top: 75px;
+    margin-right: 100px;
+}
+
+.circle1{
+    height: 200px;
+    width: 100px;
+    background-color: #377de0;
+    border-radius: 0px 100px 100px 0px; 
+    margin: 0px;   
+}
+
+
+.capsule2{
+    display:flex;
+    justify-content: right;
+    margin-top: 150px;
+    margin-right: -1000px;
+    transition: 1.5s ease;
+}
+
+.capsule2:hover{
+    
+    transform: translateX(-800px);
+}
+
+.rectangle2{
+    height:200px ;
+    width: 1050px;
+    background-color: #377de0;
+    margin: 0px;
+}
+.rectangle2 h1{
+    font-family: Roboto;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    text-align:left;
+    background-color: rgba(0,0,0, 0.0);
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.circle2{
+    height: 200px;
+    width: 100px;
+    background-color: #377de0;
+    border-radius: 100px 0px 0px 100px; 
+    margin: 0px;   
+}
+
